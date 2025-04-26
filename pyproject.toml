@@ -1,0 +1,19 @@
+[project]
+name = "hh-mindbox-test-task"
+version = "0.1.0"
+description = "Test task solutions"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pyspark>=3.5.5",
+]
+
+[dependency-groups]
+dev = [
+    "mypy>=1.15.0",
+    "pytest>=8.3.5",
+    "ruff>=0.11.7",
+]
+
+[tool.mypy]
+strict = true
